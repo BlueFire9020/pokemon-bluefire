@@ -28,7 +28,8 @@ public class Pokemon
 	private Item heldItem;
 	private PokemonMove[] moves;
 	private StatusEffect[] debuffs;
-	private HashMap<Object, Pokemon> evolutions = new HashMap<>();
+	//Object for the trigger, PokemonID for the Integer
+	private Evolution[] evolutions;
 	
 	
 	/**
